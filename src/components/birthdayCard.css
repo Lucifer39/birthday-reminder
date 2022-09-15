@@ -1,0 +1,33 @@
+:root {
+  --white: #faf9f6;
+}
+
+.card {
+  height: 5vh;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--white);
+}
+
+.card img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.cardSpan {
+  background-color: var(--white);
+}
+
+.cardSpan h4 {
+  font-size: 1rem;
+  color: rgb(90, 141, 158) !important;
+  background-color: var(--white);
+}
+
+.cardSpan h6 {
+  background-color: var(--white);
+  color: gray;
+}
